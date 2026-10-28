@@ -8,9 +8,9 @@ This repository contains a solution for secure access from a Provider-B bare-met
 * A WireGuard gateway that securely connects the bare-metal workload to Provider-A services.
 
 **Documentation:**
-* ~[Mock setup](./docs/mock-setup.md)~ - Manual steps to reproduce the local environment and validate connectivity.
-* ~[Design notes](./docs/desing-notes.md)~ - Why WireGuard was chosen, the overall approach, assumptions, and risks.
-* ~[Production plan](./docs/production-plan.md)~ - Prioritized improvements required beyond the mock.
+* [Mock setup](./docs/mock-setup.md)~ - Manual steps to reproduce the local environment and validate connectivity.
+* [Design notes](./docs/desing-notes.md)~ - Why WireGuard was chosen, the overall approach, assumptions, and risks.
+* [Production plan](./docs/production-plan.md)~ - Prioritized improvements required beyond the mock.
 
 **Core validation:**
 - The bare-metal workload can reach Redis and the selected Kubernetes service only while the WireGuard tunnel is active. 
